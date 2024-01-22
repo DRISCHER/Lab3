@@ -15,7 +15,7 @@ MODULE_LICENSE("Dual BSD/GPL");
 
 static struct head_list *head;
 
-static int amount = 1;
+static unsigned int amount = 1;
 module_param(amount, uint, S_IRUGO);
 MODULE_PARM_DESC(times, "Output amount");
 
